@@ -2,27 +2,26 @@
 a.navbar-brand{
     margin-left:10px;
     padding:10px;
-    background-color:rgb(81,175,160);
+    background-color:rgb(0, 100, 84);
     font-family:new century schoolbook;
-    font-weight: 550;
-    font-size: 25px;
+    font-weight: 500;
+    font-size: 22px;
 }
 
 /* navbar styling*/
 .navbar{
+    background-color:rgb(0, 100, 84) !important;
     padding-top:0px;
     padding-bottom: 0px;
-    padding-right:40px;  
-}
-
-.img-thumbnail{
-    
+    padding-right:40px;
+    font-family: new century schoolbook;
+    font-size: 18px; 
 }
 
 
 /* header styling*/
 h3{
-    color: rgb(81, 175, 160);
+    color: rgb(0, 100, 84);
     font-family: new century schoolbook;
     font-weight: bold;
     padding-top: 10px;
@@ -56,9 +55,9 @@ body{
     justify-content: space-between;
 }
 
-.nav-item.dropdown.show {
+/* .nav-item.dropdown.show {
     background-color: #ddd;
-}
+} */
 
 .dropdown-menu {
     margin: 0;
@@ -66,13 +65,7 @@ body{
 
 /* small screen adjustments*/
 @media(max-width:991px){
-    .navbar.bg-light{
-        background-color: rgb(81, 175, 160)!important;    
-    }
 
-    .navbar-collapse{
-        background-color: rgb(81, 175, 160)!important;
-    }
     .navbar{
         padding:inherit;
     }
